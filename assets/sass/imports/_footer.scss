@@ -1,0 +1,137 @@
+footer{
+  background: $color-obscure;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer .content{
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+footer .content .top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content .top .logo-details{
+  color: #fff;
+  font-size: 30px;
+}
+
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+
+img.footer-logo {
+  width: 2.5em;
+  filter: invert(1);
+}
+
+.site-footer__social {
+  color: $color-white;
+  margin: 2em 0em;
+}
+
+.content .link-boxes .box .link_name{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.content .link-boxes .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+.content .link-boxes .box li a{
+  color: $color-gray-200;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.4s ease
+}
+.content .link-boxes .box li a:hover{
+  color: $color-white;
+  text-decoration: underline;
+}
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+
+footer .bottom-details{
+  width: 100%;
+  font-size:  12px;
+}
+footer .bottom-details .bottom_text{
+  margin: auto;
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 12px;
+  font-weight: 300;
+  color: $color-gray-200;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  color: $color-white;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  footer .content .link-boxes .box{
+    width: 43%;
+  }
+  footer .content .link-boxes .input-box{
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px){
+  footer::before{
+    top: 145px;
+  }
+  footer .content .top{
+    flex-direction: column;
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}
+
+a.privacy-police {
+  color: $color-gray-200;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-white;
+    text-decoration: underline;
+  }
+}

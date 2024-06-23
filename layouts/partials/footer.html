@@ -1,0 +1,56 @@
+<footer>
+  <div class="content">
+    <div class="top">
+      <div class="logo-details">
+        <div class="footer">
+          <a href="/"><img src="/images/logo.webp" alt="Huelum.org" class="footer-logo"></a>
+        </div>
+      </div>
+    </div>
+    <div class="link-boxes">
+      <ul class="box">
+        <li class="link_name">Recursos</li>
+        <li><a href="/waitlist">Matemáticas</a></li>
+        <li><a href="/waitlist">Programación</a></li>
+        <li><a href="/waitlist">Más</a> 
+          <svg fill="none" height="24" stroke="#d1d5db" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" style="width: 0.9em;height: 0.9em;vertical-align: middle;"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6"></path><path d="M10 14L21 3"></path></svg>
+        </li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Eventos</li>
+        <li><a href="/waitlist">Registro</a></li>
+        <li><a href="/waitlist">Resumen</a></li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Proyectos</li>
+        <li><a href="/waitlist">Ir</a> 
+          <svg fill="none" height="24" stroke="#d1d5db" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" style="width: 0.9em;height: 0.9em;vertical-align: middle;"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6"></path><path d="M10 14L21 3"></path></svg>          
+        </li>
+      </ul>
+      <ul class="box">
+        <li class="link_name">Acerca de</li>
+        <li><a href="/about">Nuestro equipo</a></li>
+        <li><a href="https://huelum.org/community">Community</a></li>
+        <li><a href="mailto:ayuda@huelum.org">Contacto</a></li>
+      </ul>
+  </div>
+  {{ if .Site.Data.config.footer.has_social }}
+  <div class="site-footer__social">
+    {{ range $action := $.Site.Data.config.footer.social_links }}
+      {{ $include_dict := dict "action" $action }}
+      {{ partial "action.html" $include_dict }}
+    {{ end }}
+  </div>
+  {{ end }}
+  <div class="bottom-details">
+    <a class="privacy-police" href="/privacy">Aviso de privacidad</a>
+    <a class="privacy-police" href="/waitlist">Términos y condiciones</a>
+    <div class="bottom_text">
+      {{ if .Site.Data.config.footer.content }}
+      <span class="copyright_text">&copy; {{ now.Format "2006" }} {{ $.Site.Data.config.footer.content | safeHTML }} Ciudad de México. All rights reserved.</span>
+      {{ end }}
+    </div>
+  </div>
+</footer>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">

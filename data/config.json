@@ -1,0 +1,83 @@
+{
+    "title": "Huelum.org",
+    "color_scheme": "light",
+    "accent_color": "blue",
+    "base_font": "inter",
+    "header": {
+        "title": "Huelum.org",
+        "logo": "images/logo.webp",
+        "logo_alt": "Huelum.org logo",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Eventos",
+                "url": "/portfolio/",
+                "style": "link"
+            },
+            {
+                "label": "Proyectos",
+                "url": "/blog/",
+                "style": "link"
+            },
+            {
+                "label": "Unirme",
+                "url": "/about/",
+                "style": "link"
+            },
+            {
+                "label": "Donar",
+                "url": "/contact/",
+                "style": "link"
+            }
+        ]
+    },
+    "footer": {
+        "content": "<a href=\"https://huelum.org/\" target=\"_blank\" rel=\"noopener\">Huelum.org</a>.",
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "X",
+                "url": "https://x.com/huelumorg",
+                "style": "icon",
+                "icon": "x",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://instagram.com/huelumorg",
+                "style": "icon",
+                "icon": "instagram",
+                "new_window": true
+            },
+            {
+                "label": "Facebook",
+                "url": "https://facebook.com/huelumorg",
+                "style": "icon",
+                "icon": "facebook",
+                "new_window": true
+            },
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/company/huelumorg",
+                "style": "icon",
+                "icon": "linkedin",
+                "new_window": true
+            }
+            ,
+            {
+                "label": "Tiktok",
+                "url": "https://tiktok.com/@huelum.org",
+                "style": "icon",
+                "icon": "tiktok",
+                "new_window": true
+            }
+        ]
+    },
+    "domain": "https://huelum.org",
+    "favicon": "images/favicon.png"
+}

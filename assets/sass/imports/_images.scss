@@ -1,0 +1,22 @@
+img.eye {
+    @media only screen and (max-width: 767px)
+    {
+        width: 24em;
+    }
+  width: 39em;
+}
+
+.eye {
+    position: relative;
+    text-align: right;
+    z-index: -1;
+
+    @media only screen and (min-width: 767px) {
+        margin-top: -8em;
+    }
+}
+
+img.esime
+{
+    height: 5em;
+}

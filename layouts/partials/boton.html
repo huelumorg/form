@@ -1,0 +1,6 @@
+{{ $section := .section }}
+<div class="button-align">
+<a href="{{ $section.url | relURL }}" class="button">
+    {{ $section.label }}
+</a>
+</div>
