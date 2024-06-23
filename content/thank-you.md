@@ -7,7 +7,6 @@ sections:
     image_id: esime
     image_alt: ESIME Unidad Zacatenco
   - type: gracias
-    #h1: ¡Se ha realizado con éxito tu registro!
     h1: ¡Gracias!
     text: Tu registro se ha realizado con éxito, en breve revisaremos tu postulación y te contactaremos por WhatsApp :)
 layout: advanced

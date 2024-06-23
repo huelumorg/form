@@ -88,7 +88,7 @@ sections:
     submit_label: Enviar
 seo:
   title: Registro
-  description: This is the about us page
+  description: Semana de inducción 2025/1 ESIME Unidad Zacatenco.
   extra:
     - name: 'og:type'
       value: website
@@ -97,10 +97,10 @@ seo:
       value: Registro
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: Semana de inducción 2025/1 ESIME Unidad Zacatenco.
       keyName: property
     - name: 'og:image'
-      value: images/about.jpg
+      value: images/seo.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -108,9 +108,9 @@ seo:
     - name: 'twitter:title'
       value: Registro
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Semana de inducción 2025/1 ESIME Unidad Zacatenco.
     - name: 'twitter:image'
-      value: images/about.jpg
+      value: images/seo.png
       relativeUrl: true
 layout: advanced
 ---
