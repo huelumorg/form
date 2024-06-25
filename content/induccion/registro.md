@@ -18,7 +18,7 @@ sections:
       ESIME Unidad Zacatenco.
     form_id: Registro
     #Cambiar URL
-    form_action: https://docs.google.com/forms/u/0/d/e/1FAIpQLSc4e0quFWsIN_QLm_J73pAhDNz4npINIPZG7cNkGRjwfWAOHg/formResponse
+    form_action: https://docs.google.com/forms/d/e/1FAIpQLScxYQqUT2w6aAw1c4QEu0n_54AcnZuuL3gqygUBtNzxgO0Leg/formResponse
     form_fields:
       - input_type: text
       #Cambiar codigo
@@ -64,6 +64,15 @@ sections:
         is_required: true
       - input_type: select
       #Cambiar codigo
+        name: entry.1944838480
+        label: Sexo
+        default_value: Selecciona una opción
+        options:
+          - Hombre
+          - Mujer
+        is_required: true
+      - input_type: select
+      #Cambiar codigo
         name: entry.5461936
         label: Talla
         default_value: Selecciona una opción
@@ -79,9 +88,15 @@ sections:
         label: WhatsApp
         default_value: 55 4578 9805
         is_required: true
+      - input_type: textarea
+      #Cambiar codigo
+        name: entry.1504333022
+        label: ¿Porqué quieres participar como anfitrión voluntario en la Semana de Inducción?
+        default_value: Escribe en este espacio.
+        is_required: true
       - input_type: checkbox
       #Cambiar codigo
-        name: entry.302461796
+        name: entry.1339057558
         label: >-
           Cumplo con los requisitos, tengo disponibiliad de tiempo y estoy inscrito/a en algún programa académico del Instituto Politécnico Nacional.
         is_required: true
