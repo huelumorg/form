@@ -13,9 +13,10 @@ sections:
 
       ### Semana de inducción 2025/1
       
+      **ESIME Unidad Zacatenco.**     
+      
       19 - 24 de Agosto, 2024.
 
-      ESIME Unidad Zacatenco.
     form_id: Registro
     #Cambiar URL
     form_action: https://docs.google.com/forms/d/e/1FAIpQLScxYQqUT2w6aAw1c4QEu0n_54AcnZuuL3gqygUBtNzxgO0Leg/formResponse
@@ -60,6 +61,7 @@ sections:
           - IE
           - ISISA
           - Fotónica
+          - Turismo
           - Otra
         is_required: true
       - input_type: select
@@ -68,8 +70,8 @@ sections:
         label: Sexo
         default_value: Selecciona una opción
         options:
-          - Hombre
           - Mujer
+          - Hombre
         is_required: true
       - input_type: select
       #Cambiar codigo
