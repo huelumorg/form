@@ -1541,4 +1541,5 @@ img.eye {
     .eye {
       margin-top: -8em; } }
 img.esime {
-  height: 5em; }
+  height: 5em;
+  padding-left: 1em; }

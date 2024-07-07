@@ -7,11 +7,10 @@ sections:
     image_id: esime
     image_alt: ESIME Unidad Zacatenco
   - type: welcome
-    h1: ¿Te interesa ser voluntario?
-    text: A continuación, realizarás un registro muy sencillo. No olvides leer cuidadosamente.
+    h1: El registro se ha cerrado :(
   - type: boton
-    label: Comenzar
-    url: /induccion/registro
+    label: Salir
+    url: /
 seo:
   title: Semana de inducción 2025/1
   description: Formulario de registro ESIME Unidad Zacatenco.

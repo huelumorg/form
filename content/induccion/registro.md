@@ -2,6 +2,8 @@
 title: Registro
 hide_title: true
 sections:
+  - type: link_to
+    url_to: 'https://instagram.com/huelumorg'
   - type: content_section
     image: images/ESIME.webp
     image_id: esime
