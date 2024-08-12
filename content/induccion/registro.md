@@ -2,8 +2,9 @@
 title: Registro
 hide_title: true
 sections:
+  - type: hide_content
   - type: link_to
-    url_to: 'https://instagram.com/huelumorg'
+    url: /induccion
   - type: content_section
     image: images/ESIME.webp
     image_id: esime
@@ -17,92 +18,197 @@ sections:
       
       **ESIME Unidad Zacatenco.**     
       
-      19 - 24 de Agosto, 2024.
+      Agosto, 2024.
 
     form_id: Registro
+    form_to: /induccion/done
     #Cambiar URL
-    form_action: https://docs.google.com/forms/d/e/1FAIpQLScxYQqUT2w6aAw1c4QEu0n_54AcnZuuL3gqygUBtNzxgO0Leg/formResponse
+    form_action: https://docs.google.com/forms/d/e/1FAIpQLSdvcUYDC3oSCIAJy4T5kUL0BJMY6Yz3BimhrP2YvODQAC97Ng/formResponse
     form_fields:
       - input_type: text
       #Cambiar codigo
-        name: entry.648852075
+        name: entry.467836427
         label: Nombre Completo
         extra: Empezando por apellidos
-        default_value: López Castes Sebastián
+        default_value: López Castes José
         is_required: true
       - input_type: number
       #Cambiar codigo
-        name: entry.1964098358
-        label: Boleta
-        default_value: 2020306969
+        name: entry.776004186
+        label: Edad
+        default_value: 17
         is_required: true
-      - input_type: select
+      - input_type: email
       #Cambiar codigo
-        name: entry.1835281201
-        label: Semestre
-        default_value: Selecciona una opción
-        options:
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
-          - 6
-          - 7
-          - 8
-          - 9
-        is_required: true
-      - input_type: select
-      #Cambiar codigo
-        name: entry.2122459617
-        label: Carrera
-        default_value: Selecciona una opción
-        options:
-          - ICE
-          - ICA
-          - IE
-          - ISISA
-          - Fotónica
-          - Turismo
-          - Otra
-        is_required: true
-      - input_type: select
-      #Cambiar codigo
-        name: entry.1944838480
-        label: Sexo
-        default_value: Selecciona una opción
-        options:
-          - Mujer
-          - Hombre
-        is_required: true
-      - input_type: select
-      #Cambiar codigo
-        name: entry.5461936
-        label: Talla
-        default_value: Selecciona una opción
-        options:
-          - CH
-          - M
-          - G
-          - XL
+        name: entry.535706833
+        label: Correo electrónico
+        extra: Ingresa el correo que más utilices
+        default_value: jose@gmail.com
         is_required: true
       - input_type: tel
       #Cambiar codigo
-        name: entry.499336646
+        name: entry.1657704661
         label: WhatsApp
         default_value: 55 4578 9805
         is_required: true
+      - input_type: section
+        label: Cuéntanos sobre ti.
+      - input_type: text
+      #Cambiar codigo
+        name: entry.2088765041
+        label: Escuela de procedencia
+        default_value: CECyT - 6 "Miguel Othón de Mendizabal"
+        is_required: true
+      - input_type: select
+      #Cambiar codigo
+        name: entry.1666694072
+        label: Estado de procedencia
+        default_value: Selecciona una opción
+        options:
+          - Aguascalientes
+          - Baja California
+          - Baja California Sur
+          - Chiapas
+          - Chihuahua
+          - Ciudad de México
+          - Coahuila
+          - Colima
+          - Durango
+          - Estado de México
+          - Guanajuato
+          - Guerrero
+          - Hidalgo
+          - Jalisco
+          - Michoacán
+          - Morelos
+          - Nayarit
+          - Nuevo León
+          - Oaxaca
+          - Puebla
+          - Querétaro
+          - Quintana Roo
+          - San Luis Potosí
+          - Sinaloa
+          - Sonora
+          - Tabasco
+          - Tamaulipas
+          - Tlaxcala
+          - Veracruz
+          - Yucatán
+          - Zacatecas
+        is_required: true
+      - input_type: select
+      #Cambiar codigo
+        name: entry.831515350
+        label: Nivel de inglés
+        default_value: Selecciona una opción
+        options:
+          - Bajo
+          - Intermedio
+          - Avanzado
+          - Tengo una certificación
+          - No sé inglés
+        is_required: true
+      - input_type: select
+      #Cambiar codigo
+        name: entry.1580785789
+        label: ¿Cuentas con una computadora propia?
+        default_value: Selecciona una opción
+        options:
+          - 'Si'
+          - 'No'
+        is_required: true
+      - input_type: select
+      #Cambiar codigo
+        name: entry.1464262659
+        label: ¿Tienes alguna discapacidad?
+        default_value: Selecciona una opción
+        options:
+          - Física
+          - Visual
+          - Auditiva
+          - Cognitiva
+          - Verbal
+          - Psiquica
+          - Múltiple
+          - Otra
+          - Ninguna
+        is_required: true
+      - input_type: select
+      #Cambiar codigo
+        name: entry.786722244
+        label: ¿Qué red social utilizas más?
+        default_value: Selecciona una opción
+        options:
+          - Facebook
+          - X
+          - Instagram
+          - TikTok
+          - Threads
+          - Otra
+        is_required: true
+      - input_type: section
+        label: 'Si tuvieras la oportunidad:'
+      - input_type: select
+      #Cambiar codigo
+        name: entry.1719903588
+        label: ¿Qué actividad cultural te gustaria aprender?
+        default_value: Ninguna
+        options:
+          - Stand Up
+          - Salsa Cubana
+          - Pintura
+          - Habilidades blandas
+          - Fotografía
+          - Dibujo
+          - Danzas Polinesias
+          - Creación literaria
+          - Danza Folklórica
+          - Cine
+          - Crafting
+          - Banda de guerra
+          - Piano
+      - input_type: select
+      #Cambiar codigo
+        name: entry.942675876
+        label: ¿Qué actividad deportiva te gustaria practicar?
+        default_value: Ninguna
+        options:
+          - Kendo
+          - Box
+          - Cheerleading
+          - Fútbol
+          - Basketball
+          - Voleibol
+          - Karate-Do
+      - input_type: section
+        label: Contacto en caso de emergencia.
+      - input_type: text
+      #Cambiar codigo
+        name: entry.2093251114
+        label: Nombre
+        extra: Madre, padre o tutor
+        default_value: López Castes José
+        is_required: true
+      - input_type: tel
+      #Cambiar codigo
+        name: entry.788475866
+        label: Teléfono
+        default_value: 55 4578 9805
+        is_required: true
+      - input_type: section
+        label: Finalmente.
       - input_type: textarea
       #Cambiar codigo
-        name: entry.1504333022
-        label: ¿Porqué quieres participar como anfitrión voluntario en la Semana de Inducción?
+        name: entry.894073424
+        label: ¿Cómo te enteraste de la existencia de tu carrera y de la ESIME Unidad Zacatenco?
         default_value: Escribe en este espacio.
         is_required: true
       - input_type: checkbox
       #Cambiar codigo
-        name: entry.1339057558
+        name: entry.1584644062
         label: >-
-          Cumplo con los requisitos, tengo disponibiliad de tiempo y estoy inscrito/a en algún programa académico del Instituto Politécnico Nacional.
+          Comprobé que mis datos son correctos y están bien escritos (correo electrónico, nombres y teléfono), además, doy veracidad a la información que he ingresado.
         is_required: true
     submit_label: Enviar
 seo:

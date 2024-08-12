@@ -1,9 +1,29 @@
-img.eye {
-    @media only screen and (max-width: 767px)
-    {
-        width: 24em;
+img {
+    &.eye {
+        @media only screen and (max-width: 767px)
+        {
+            width: 24em;
+        }
+      width: 39em;
     }
-  width: 39em;
+
+    &.esime
+    {
+        height: 5em;
+        padding-left: 1em;
+    }
+
+    &.burrito {
+        width: 35em;
+    }
+
+    &.apple {
+        @media only screen and (max-width: 767px)
+        {
+            height: 14em;
+        }
+        height: 20em;
+    }
 }
 
 .eye {
@@ -16,8 +36,18 @@ img.eye {
     }
 }
 
-img.esime
-{
-    height: 5em;
-    padding-left: 1em;
+.burrito {
+    position: relative;
+    text-align: right;
+    z-index: -1;
+
+    @media only screen and (min-width: 767px) {
+        margin-top: -2em;
+        margin-bottom: -12em;
+    }
+}
+
+.apple {
+    margin-top: 2em;
+    text-align: center;
 }

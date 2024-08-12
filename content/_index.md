@@ -16,7 +16,7 @@ sections:
     content: >-
       Somos una comunidad (muy chida) y te ayudamos a desarrollar―te. <br> [¡Quiero Unirme!](/join/)
   - type: link_to
-    url_to: 'https://instagram.com/huelumorg'
+    url: 'https://instagram.com/huelumorg'
 seo:
   title: Huelum.org
   description: >-

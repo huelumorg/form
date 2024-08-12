@@ -7,10 +7,13 @@ sections:
     image_id: esime
     image_alt: ESIME Unidad Zacatenco
   - type: welcome
-    h1: El registro se ha cerrado :(
-  - type: boton
-    label: Salir
-    url: /
+    h1: ¡Bienvenida, bienvenido al
+    h3: Instituto Politécnico Nacional!
+    text: El registro estará habilitado apartir del 17 de agosto.
+  ##  text: A continuación lee detenidamente e ingresa la información requerida de forma correcta.
+  ##- type: boton
+  ##  label: Comenzar
+  ##  url: /induccion/registro
 seo:
   title: Semana de inducción 2025/1
   description: Formulario de registro ESIME Unidad Zacatenco.

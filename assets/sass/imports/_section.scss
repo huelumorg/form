@@ -171,8 +171,32 @@
 }
 
 
-.bienvenida {
+.centrado {
   text-align: center;
   padding-left: 2em;
   padding-right: 2em;
+}
+
+.notion {
+    @media only screen and (min-width: 768px)
+    {
+      padding-left: 5em;
+      padding-right: 5em;
+      width: 20em;
+      text-align: left;
+    }
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.comienza {
+    @media only screen and (max-width: 768px)
+    {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    margin-top: 12em;
+    padding-left: 5em;
+    padding-right: 5em;
 }

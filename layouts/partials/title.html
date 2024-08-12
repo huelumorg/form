@@ -1,5 +1,5 @@
 {{ $section := .section }}
-<div class="centrado">
+<div class="{{ $section.class }}">
     {{ if $section.h1 }}
     <h1>{{ $section.h1 }}</h1>
     {{ end }}

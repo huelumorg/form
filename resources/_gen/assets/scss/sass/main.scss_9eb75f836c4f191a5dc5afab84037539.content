@@ -224,6 +224,7 @@ h5 {
   font-size: 1.11111em; }
 
 h6 {
+  color: #2f3845;
   font-size: 1em; }
 
 .font-fraunces b, .font-fraunces strong, .font-fraunces dt {
@@ -465,7 +466,7 @@ figcaption {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 204% 100%;
-    border: 2px solid #000;
+    border: 1px solid #000;
     color: #fff;
     -webkit-transition: background-position .3s, color .3s;
     transition: background-position .3s, color .3s; }
@@ -496,6 +497,16 @@ figcaption {
       transition: opacity .3s; }
       .button-group a:not(.button):hover, .button-group a:not(.button):focus {
         opacity: .6; }
+
+.get-notion {
+  background-color: black;
+  border: 1px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 0.333em;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 12px; }
 
 .icon {
   color: inherit;
@@ -665,6 +676,9 @@ option {
 a.form-extra-info {
   font-size: 14px;
   font-weight: 600; }
+
+.divider {
+  padding-top: 3em; }
 
 table {
   border: 0;
@@ -1250,11 +1264,29 @@ th {
 .content {
   padding: 20px; }
 
-.bienvenida {
+.centrado {
   text-align: center;
   padding-left: 2em;
   padding-right: 2em; }
 
+.notion {
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .notion {
+      padding-left: 5em;
+      padding-right: 5em;
+      width: 20em;
+      text-align: left; } }
+.comienza {
+  margin-top: 12em;
+  padding-left: 5em;
+  padding-right: 5em; }
+  @media only screen and (max-width: 768px) {
+    .comienza {
+      padding-left: 2em;
+      padding-right: 2em; } }
 footer {
   background: #171717;
   width: 100%;
@@ -1533,6 +1565,18 @@ img.eye {
   @media only screen and (max-width: 767px) {
     img.eye {
       width: 24em; } }
+img.esime {
+  height: 5em;
+  padding-left: 1em; }
+
+img.burrito {
+  width: 35em; }
+
+img.apple {
+  height: 20em; }
+  @media only screen and (max-width: 767px) {
+    img.apple {
+      height: 14em; } }
 .eye {
   position: relative;
   text-align: right;
@@ -1540,6 +1584,14 @@ img.eye {
   @media only screen and (min-width: 767px) {
     .eye {
       margin-top: -8em; } }
-img.esime {
-  height: 5em;
-  padding-left: 1em; }
+.burrito {
+  position: relative;
+  text-align: right;
+  z-index: -1; }
+  @media only screen and (min-width: 767px) {
+    .burrito {
+      margin-top: -2em;
+      margin-bottom: -12em; } }
+.apple {
+  margin-top: 2em;
+  text-align: center; }

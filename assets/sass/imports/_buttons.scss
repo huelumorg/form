@@ -35,7 +35,7 @@
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 204% 100%;
-    border: 2px solid $color-black;
+    border: 1px solid $color-black;
     color:#fff;
     -webkit-transition: background-position .3s, color .3s;
     transition: background-position .3s, color .3s;
@@ -81,4 +81,15 @@
       }
     }
   }
+}
+
+.get-notion {
+    background-color: black;
+    border: 1px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 0.333em;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 12px;
 }

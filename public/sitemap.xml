@@ -2,20 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/contact/</loc>
-  </url><url>
     <loc>/</loc>
   </url><url>
-    <loc>/about/</loc>
-  </url><url>
-    <loc>/community/</loc>
+    <loc>/induccion</loc>
   </url><url>
     <loc>/induccion/registro/</loc>
-  </url><url>
-    <loc>/induccion/</loc>
-  </url><url>
-    <loc>/style-guide/</loc>
-  </url><url>
-    <loc>/gracias/</loc>
+  </url><>
+    <loc>/induccion/done</loc
   </url>
-</urlset>
+  </urlset>

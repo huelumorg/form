@@ -23,7 +23,7 @@
       {{ end }}
       <div class="section__form-container{{ if $has_text }} cell{{ end }}">
         <script type="text/javascript">var submitted=false;</script>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/gracias';}"></iframe>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='{{ $section.form_to }}';}"></iframe>
       
           <form name="{{ $section.form_id }}" id="{{ $section.form_id }}" action="{{ $section.form_action }}" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
 

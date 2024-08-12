@@ -1,0 +1,17 @@
+{{ $section := .section }}
+<div class="comienza">
+    {{ if $section.h1 }}
+    <h1>{{ $section.h1 }}</h1>
+    {{ end }}
+    <br><br>
+    {{ range $section.text_a }}
+    <a>{{ . }}</a><br>
+    {{ end }}
+    <a href="https://www.notion.so/signup">
+    <button class="get-notion">Obtén Notion grátis</button>
+    </a>
+    <br><br>
+    {{ range $section.text_b }}
+    <a>{{ . }}</a><br>
+    {{ end }}
+</div>

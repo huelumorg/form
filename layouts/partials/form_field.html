@@ -1,6 +1,10 @@
 {{ $section := .section }}
 {{ $field := .field }}
-{{ if eq $field.input_type "checkbox" }}
+{{ if eq $field.input_type "section" }}
+<div class="form-section divider">
+  <h6>{{ $field.label }}</h6>
+</div>
+{{ else if eq $field.input_type "checkbox" }}
 <div class="form-group form-checkbox">
   <input type="checkbox" id="{{ $field.name }}" name="{{ $field.name }}"{{ if $field.is_required }} required{{ end }}>
   {{ if $field.label }}
