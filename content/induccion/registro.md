@@ -11,15 +11,11 @@ sections:
     content: >-
       # Registro
 
-      ### Semana de inducción 2025/1
+      ### Alumnos de nuevo ingreso 
       
-      **ESIME Unidad Zacatenco.**     
-      
+      **ESIME Unidad Zacatenco.**
+            
       Agosto, 2024.
-
-
-      USO OBLIGATORIO DE CUBREBOCAS EN TODO MOMENTO.
-
     form_id: Registro
     form_to: /induccion/done
     #Cambiar URL
@@ -41,8 +37,7 @@ sections:
       #Cambiar codigo
         name: entry.1550042724
         label: Ingresa tu boleta ó preboleta.
-        default_value: 202530001 ó PE25031425 ó PP25041559 
-        is_required: true
+        default_value: 202530001 ó PE25031425 ó PP25041559
       - input_type: section
       - input_type: text
       #Cambiar codigo

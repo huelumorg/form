@@ -9,7 +9,7 @@ sections:
   - type: welcome
     h1: ¡Bienvenida, bienvenido al
     h3: Instituto Politécnico Nacional!
-    text: A continuación lee detenidamente e ingresa la información requerida de forma correcta.
+    text: A continuación ingresa la información requerida de forma correcta para continuar con tu proceso de inscripción y asginarte un grupo.
   - type: boton
     label: Comenzar
     url: /induccion/registro
