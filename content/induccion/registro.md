@@ -2,9 +2,6 @@
 title: Registro
 hide_title: true
 sections:
-  - type: hide_content
-  - type: link_to
-    url: /induccion
   - type: content_section
     image: images/ESIME.webp
     image_id: esime
@@ -20,11 +17,33 @@ sections:
       
       Agosto, 2024.
 
+
+      USO OBLIGATORIO DE CUBREBOCAS EN TODO MOMENTO.
+
     form_id: Registro
     form_to: /induccion/done
     #Cambiar URL
     form_action: https://docs.google.com/forms/d/e/1FAIpQLSdvcUYDC3oSCIAJy4T5kUL0BJMY6Yz3BimhrP2YvODQAC97Ng/formResponse
     form_fields:
+      - input_type: select
+        #Cambiar codigo
+        name: entry.172404053
+        label: ¿Qué día dejaste tus papeles?
+        default_value: Selecciona un día
+        options:
+          - Sábado, 17 de agosto
+          - Domingo, 18 de agosto
+          - Lunes, 19 de agosto
+          - Martes, 20 de agosto
+          - Miércoles, 21 de agosto
+        is_required: true
+      - input_type: text
+      #Cambiar codigo
+        name: entry.1550042724
+        label: Ingresa tu boltea ó preboleta.
+        default_value: 202530001 ó PE25031425 ó PP25041559 
+        is_required: true
+      - input_type: section
       - input_type: text
       #Cambiar codigo
         name: entry.467836427

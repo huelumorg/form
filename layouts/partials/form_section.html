@@ -37,10 +37,19 @@
           {{ partial "form_field.html" $include_dict }}
           {{ end }}
           <div class="form-submit">
-            <button type="submit" class="button button--primary" onclick="if(submitted) {disabled=true;}">{{ $section.submit_label }}</button>
+            <button type="submit" class="button button--primary" onclick="if (!submitted && this.form.checkValidity()) {submitted = true; this.disabled=true; showLoadingMessage(); this.form.submit();}">{{ $section.submit_label }}</button>
           </div>
+          <div id="loading-message" style="display:none; margin-top:10px;">Enviando...</div>          
         </form>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  var submitted = false;
+
+  function showLoadingMessage() {
+    document.getElementById('loading-message').style.display = 'block';
+  }
+</script>
