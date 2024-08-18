@@ -40,7 +40,7 @@ sections:
       - input_type: text
       #Cambiar codigo
         name: entry.1550042724
-        label: Ingresa tu boltea ó preboleta.
+        label: Ingresa tu boleta ó preboleta.
         default_value: 202530001 ó PE25031425 ó PP25041559 
         is_required: true
       - input_type: section
