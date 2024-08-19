@@ -9,12 +9,12 @@ sections:
   - type: welcome
     h1: ¡Bienvenida, bienvenido al
     h3: Instituto Politécnico Nacional!
-    text: A continuación ingresa la información requerida de forma correcta para continuar con tu proceso de inscripción y asignarte un grupo.
+    text: A continuación, ingresa la información requerida de forma correcta para continuar con tu proceso de inscripción y asignarte un grupo.
   - type: boton
     label: Comenzar
     url: /induccion/registro
 seo:
-  title: Semana de inducción 2025/1
+  title: Nuevo ingreso ESIME Zacatenco.
   description: Formulario de registro ESIME Unidad Zacatenco.
   extra:
     - name: 'og:type'
@@ -27,7 +27,7 @@ seo:
       value: Formulario de registro ESIME Unidad Zacatenco.
       keyName: property
     - name: 'og:image'
-      value: images/seo.png
+      value: images/nuevo-ingreso.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -37,7 +37,7 @@ seo:
     - name: 'twitter:description'
       value: Formulario de registro ESIME Unidad Zacatenco.
     - name: 'twitter:image'
-      value: images/seo.png
+      value: images/nuevo-ingreso.png
       relativeUrl: true
 layout: advanced
 ---

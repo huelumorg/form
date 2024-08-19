@@ -9,6 +9,10 @@ sections:
   - type: form_done
     h1: ¡Listo!
     text: Tu registro se ha realizado con éxito.
+    social: Sigue a Huelum.org en Instagram o cualquier red social de tu preferencia para mantenerte informado.
+  - type: boton
+    label: Continuar
+    url: https://instagram.com/huelumorg
 layout: advanced
 seo:
   title: '¡Listo!'

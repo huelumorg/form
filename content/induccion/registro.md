@@ -227,7 +227,7 @@ sections:
     submit_label: Enviar
 seo:
   title: Registro
-  description: Semana de inducción 2025/1 ESIME Unidad Zacatenco.
+  description: Registro alumnos de nuevo ingreso ESIME Unidad Zacatenco.
   extra:
     - name: 'og:type'
       value: website
@@ -236,7 +236,7 @@ seo:
       value: Registro
       keyName: property
     - name: 'og:description'
-      value: Semana de inducción 2025/1 ESIME Unidad Zacatenco.
+      value: Registro alumnos de nuevo ingreso ESIME Unidad Zacatenco.
       keyName: property
     - name: 'og:image'
       value: images/seo.png
@@ -247,7 +247,7 @@ seo:
     - name: 'twitter:title'
       value: Registro
     - name: 'twitter:description'
-      value: Semana de inducción 2025/1 ESIME Unidad Zacatenco.
+      value: Registro alumnos de nuevo ingreso ESIME Unidad Zacatenco.
     - name: 'twitter:image'
       value: images/seo.png
       relativeUrl: true
