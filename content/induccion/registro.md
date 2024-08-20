@@ -19,11 +19,11 @@ sections:
     form_id: Registro
     form_to: /induccion/done
     #Cambiar URL
-    form_action: https://docs.google.com/forms/d/e/1FAIpQLSdvcUYDC3oSCIAJy4T5kUL0BJMY6Yz3BimhrP2YvODQAC97Ng/formResponse
+    form_action: https://docs.google.com/forms/d/e/1FAIpQLSeQhFFxISsRc-SYLPvm5X6mj9qi--A_ZAd-I015jB5ddh2dqg/formResponse
     form_fields:
       - input_type: select
         #Cambiar codigo
-        name: entry.172404053
+        name: entry.560396238
         label: ¿Qué día dejaste tus papeles?
         default_value: Selecciona un día
         options:
@@ -33,35 +33,48 @@ sections:
           - Martes, 20 de agosto
           - Miércoles, 21 de agosto
         is_required: true
+      - input_type: select
+        #Cambiar codigo
+        name: entry.986563732
+        label: Carrera 
+        default_value: Selecciona una opción
+        options:
+          - Ingeniería en Comunicaciones y electrónica
+          - Ingeniería en Control y automatización
+          - Ingeniería Eléctrica
+          - Ingeniería en Sistemas automotrices
+          - Ingeniería Fotónica
+        is_required: true
       - input_type: text
       #Cambiar codigo
-        name: entry.1550042724
-        label: Ingresa tu boleta ó preboleta.
+        name: entry.626622907
+        label: Ingresa tu boleta ó preboleta
         default_value: 202530001 ó PE25031425 ó PP25041559
+        is_required: true
       - input_type: section
       - input_type: text
       #Cambiar codigo
-        name: entry.467836427
+        name: entry.2079249088
         label: Nombre Completo
         extra: Empezando por apellidos
         default_value: López Castes José
         is_required: true
       - input_type: number
       #Cambiar codigo
-        name: entry.776004186
+        name: entry.1189207086
         label: Edad
         default_value: 17
         is_required: true
       - input_type: email
       #Cambiar codigo
-        name: entry.535706833
+        name: entry.513847849
         label: Correo electrónico
         extra: Ingresa el correo que más utilices
         default_value: jose@gmail.com
         is_required: true
       - input_type: tel
       #Cambiar codigo
-        name: entry.1657704661
+        name: entry.1705983635
         label: WhatsApp
         default_value: 55 4578 9805
         is_required: true
@@ -69,13 +82,13 @@ sections:
         label: Cuéntanos sobre ti.
       - input_type: text
       #Cambiar codigo
-        name: entry.2088765041
+        name: entry.172340618
         label: Escuela de procedencia
         default_value: CECyT - 6 "Miguel Othón de Mendizabal"
         is_required: true
       - input_type: select
       #Cambiar codigo
-        name: entry.1666694072
+        name: entry.846908387
         label: Estado de procedencia
         default_value: Selecciona una opción
         options:
@@ -113,7 +126,7 @@ sections:
         is_required: true
       - input_type: select
       #Cambiar codigo
-        name: entry.831515350
+        name: entry.606971635
         label: Nivel de inglés
         default_value: Selecciona una opción
         options:
@@ -125,7 +138,7 @@ sections:
         is_required: true
       - input_type: select
       #Cambiar codigo
-        name: entry.1580785789
+        name: entry.831112114
         label: ¿Cuentas con una computadora propia?
         default_value: Selecciona una opción
         options:
@@ -134,7 +147,7 @@ sections:
         is_required: true
       - input_type: select
       #Cambiar codigo
-        name: entry.1464262659
+        name: entry.1036108302
         label: ¿Tienes alguna discapacidad?
         default_value: Selecciona una opción
         options:
@@ -150,7 +163,7 @@ sections:
         is_required: true
       - input_type: select
       #Cambiar codigo
-        name: entry.786722244
+        name: entry.566894557
         label: ¿Qué red social utilizas más?
         default_value: Selecciona una opción
         options:
@@ -165,7 +178,7 @@ sections:
         label: 'Si tuvieras la oportunidad:'
       - input_type: select
       #Cambiar codigo
-        name: entry.1719903588
+        name: entry.323725481
         label: ¿Qué actividad cultural te gustaria aprender?
         default_value: Ninguna
         options:
@@ -184,7 +197,7 @@ sections:
           - Piano
       - input_type: select
       #Cambiar codigo
-        name: entry.942675876
+        name: entry.2008237550
         label: ¿Qué actividad deportiva te gustaria practicar?
         default_value: Ninguna
         options:
@@ -199,14 +212,14 @@ sections:
         label: Contacto en caso de emergencia.
       - input_type: text
       #Cambiar codigo
-        name: entry.2093251114
+        name: entry.1683197224
         label: Nombre
         extra: Madre, padre o tutor
         default_value: López Castes José
         is_required: true
       - input_type: tel
       #Cambiar codigo
-        name: entry.788475866
+        name: entry.1975631039
         label: Teléfono
         default_value: 55 4578 9805
         is_required: true
@@ -214,15 +227,15 @@ sections:
         label: Finalmente.
       - input_type: textarea
       #Cambiar codigo
-        name: entry.894073424
+        name: entry.1015257711
         label: ¿Cómo te enteraste de la existencia de tu carrera y de la ESIME Unidad Zacatenco?
         default_value: Escribe en este espacio.
         is_required: true
       - input_type: checkbox
       #Cambiar codigo
-        name: entry.1584644062
+        name: entry.59454584
         label: >-
-          Comprobé que mis datos son correctos y están bien escritos (correo electrónico, nombres y teléfono), además, doy veracidad a la información que he ingresado.
+          Comprobé que mis datos son correctos y están bien escritos (correo electrónico, nombres y teléfono), además, doy veracidad a la información que he ingresado y soy aspirante asignado para un programa académico en ESIME Zacatenco.
         is_required: true
     submit_label: Enviar
 seo:
