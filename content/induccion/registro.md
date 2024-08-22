@@ -2,6 +2,9 @@
 title: Registro
 hide_title: true
 sections:
+  - type: hide_content
+  - type: link_to
+    url: '/oops'
   - type: content_section
     image: images/ESIME.webp
     image_id: esime

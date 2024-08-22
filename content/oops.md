@@ -2,20 +2,12 @@
 title: Semana de inducción 2025/1
 hide_title: true
 sections:
-  - type: hide_content
-  - type: link_to
-    url: '/oops'
   - type: content_section
     image: images/ESIME.webp
     image_id: esime
     image_alt: ESIME Unidad Zacatenco
   - type: welcome
-    h1: ¡Bienvenida, bienvenido al
-    h3: Instituto Politécnico Nacional!
-    text: A continuación, ingresa la información requerida de forma correcta para continuar con tu proceso de inscripción y asignarte un grupo.
-  - type: boton
-    label: Comenzar
-    url: /induccion/registro
+    h1: ¡Lamentablemente el registro se ha cerrado!
 seo:
   title: Nuevo ingreso ESIME Zacatenco.
   description: Formulario de registro ESIME Unidad Zacatenco.
